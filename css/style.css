@@ -1,0 +1,636 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    position: absolute;
+    width: 100%;
+
+}
+
+.header {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+
+}
+
+.block {
+    display: flex;
+
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+#hero {
+    background: url("../img/bild.png") no-repeat center/ cover;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.form {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(20px);
+}
+
+.img {
+    position: absolute;
+    left: 3.78%;
+    right: 83.12%;
+    top: 25.75%;
+    bottom: 98.35%;
+}
+
+.menu {
+    position: absolute;
+    width: 433px;
+    height: 21px;
+    left: 615px;
+    top: 30px;
+    display: flex;
+    justify-content: space-between;
+    /*background: black;*/
+    color: black;
+
+}
+
+.button {
+    position: absolute;
+    /*width: 40px;*/
+    /*height: 20px;*/
+    left: 1100px;
+    top: 30px;
+
+    background: #253659;
+    border: 4px solid #253659;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.number {
+    position: absolute;
+    width: 92px;
+    height: 40px;
+    left: 1308px;
+    top: 20px;
+}
+
+.tenge {
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    left: 1208px;
+    top: 30px;
+}
+
+.team {
+    position: absolute;
+    width: 823px;
+    height: 180px;
+    margin-top: 200px;
+    left: 450px;
+
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 190%;
+
+    color: #FFFFFF;
+}
+
+.border {
+    width: 30px;
+    height: 60px;
+    margin-top: 400px;
+    margin-left: 550px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 60px;
+}
+
+.border1 {
+    width: 1px;
+    height: 14px;
+    margin-top: -40px;
+    margin-left: 563px;
+
+    border: 1px solid #FFFFFF;
+    /*box-sizing: border-box;*/
+    border-radius: 60px;
+}
+
+/*______________*/
+.container1 {
+    position: absolute;
+    min-height: 55vh;
+    width: 1076px;
+    height: 100px;
+    left: 282px;
+    top: 770px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #253659;
+}
+
+.about-title {
+    padding-top: 30px;
+    width: 976px;
+    margin-bottom: 30px;
+}
+
+.namecom {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 922px;
+    height: 118px;
+    left: 349px;
+    top: 960px;
+}
+
+.textsvg1 {
+    width: 160px;
+    font-size: 15px;
+    line-height: 19px;
+    margin-left: -50px;
+    padding-top: 10px;
+    color: #253659;
+
+}
+
+.textsvg2 {
+    width: 123px;
+    font-size: 15px;
+    line-height: 19px;
+    margin-left: -20px;
+    padding-top: 10px;
+    color: #253659;
+
+}
+
+.textsvg3 {
+    width: 181px;
+    font-size: 13px;
+    line-height: 19px;
+    margin-left: -20px;
+    padding-top: 10px;
+    color: #253659;
+}
+
+.textsvg4 {
+    width: 158px;
+    font-size: 12px;
+    line-height: 19px;
+    padding-top: 10px;
+    margin-left: -20px;
+    color: #253659;
+}
+
+/*_______________*/
+#about-conpany {
+    min-height: 100vh;
+    background: url("../img/Baytik_poselok.png") no-repeat center/ cover;
+    margin-top: 500px;
+    width: 100%;
+    height: 900px;
+}
+
+.about-company_title {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    position: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.about-company__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.img-about__company {
+    margin-top: -75px;
+    margin-left: -45px;
+}
+
+.about-company__item1 {
+    position: relative;
+    width: 350px;
+    height: 210px;
+    margin-top: 106px;
+    margin-left: 13px;
+    background: rgba(37, 54, 89, 0.4);
+    backdrop-filter: blur(10px);
+}
+
+.about-company__item2 {
+    position: relative;
+    width: 400px;
+    height: 170px;
+    background: rgba(37, 54, 89, 0.4);
+    backdrop-filter: blur(10px);
+    margin-left: 750px;
+    margin-top: -100px;
+}
+
+.about-company__item3 {
+    position: relative;
+    width: 380px;
+    height: 130px;
+    background: rgba(37, 54, 89, 0.4);
+    backdrop-filter: blur(10px);
+    margin-top: 190px;
+    margin-left: 145px;
+}
+
+.name-prof {
+    margin-top: -36px;
+    margin-left: -58px;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.name-prof1 {
+    width: 150px;
+    margin-left: 80px;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.paragraf {
+    width: 334px;
+    height: 128px;
+    margin-left: 15px;
+    margin-top: 15px;
+    color: white;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 20px
+}
+
+
+/*-----------*/
+.container4 {
+    position: absolute;
+    min-height: 55vh;
+    width: 1076px;
+    height: 100px;
+    left: 282px;
+    top: 770px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #253659;
+}
+
+.namecom5 {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 922px;
+    height: 118px;
+    left: 449px;
+    top: 40px;
+}
+
+.title2 {
+    position: absolute;
+    justify-content: space-between;
+    width: 262px;
+    font-weight: 400;
+    font-size: 36px;
+    color: #253659;
+    margin-top: -712px;
+    margin-left: -240px;
+}
+
+.textsvg5 {
+    position: absolute;
+    width: 113px;
+    height: 38px;
+    margin-left: -35px;
+
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #253659;
+
+}
+
+.section {
+    position: absolute;
+    width: 1440px;
+    height: 4px;
+
+
+}
+
+/*----------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header-end {
+    position: absolute;
+    width: 100%;
+    top: 2380px;
+
+}
+
+.img-end {
+    background: url("../img/Baytik_poselok-you.png") no-repeat center/cover;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.logo {
+    position: absolute;
+    top: 260px;
+    left: 130px;
+    width: 600px;
+}
+
+
+.border-end {
+    position: absolute;
+    width: 440px;
+    height: 420px;
+    left: 930px;
+    bottom: 200px;
+    background: rgba(37, 54, 89, 0.8);
+    backdrop-filter: blur(4px);
+}
+
+.border-name {
+    position: absolute;
+    width: 307px;
+    height: 68px;
+    top: 30px;
+    left: 70px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    /* or 34px */
+
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+}
+
+.border-line {
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    top: 138px;
+    left: 40px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+.name-border {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: Open Sans;
+    line-height: 140%;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.namber {
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    top: 218px;
+    left: 40px;
+    /*background: url("../img/jelek.svg") no-repeat;*/
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+
+}
+
+.tel-number {
+    position: absolute;
+    top: 20px;
+    left: 52px;
+    font-family: Open Sans;
+    line-height: 140%;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.jelek {
+    position: absolute;
+    width: 20px;
+    height: 11.3px;
+    top: 24px;
+    left: 20px;
+
+    background: url("../img/jelek.svg");
+}
+
+.border-button {
+    position: absolute;
+    width: 217px;
+    height: 60px;
+    top: 298px;
+    left: 40px;
+    background: #FFFFFF;
+}
+
+.button1 {
+    position: absolute;
+    width: 177px;
+    height: 25px;
+    top: 15px;
+    left: 15px;
+    font-family: Open Sans;
+    font-style: normal;
+    letter-spacing: 0.1em;
+    color: #253659;
+
+}
+
+.border-finish {
+    position: absolute;
+    width: 100%;
+    height: 360px;
+    left: 0px;
+    top: 550px;
+    background: rgba(37, 54, 89, 0.9);
+    backdrop-filter: blur(4px);
+
+
+}
+
+.img-finish {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.paragraf {
+    position: absolute;
+    width: 214px;
+    height: 80px;
+    top: 70px;
+    left: 20px;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+.prava {
+    position: absolute;
+    top: 300px;
+    left: 40px;
+}
+
+.menu-end {
+    position: absolute;
+    font-size: 18px;
+    line-height: 25px;
+    width: 90px;
+    height: 151px;
+    top: 595px;
+    left: 354px;
+
+    color: white;
+
+}
+
+.telefon-end {
+    position: absolute;
+    top: 185px;
+    left: -35px;
+
+}
+
+.contact {
+    position: absolute;
+    width: 100px;
+    height: 19px;
+    top: 515px;
+    left: 574px;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 39px;
+
+
+    color: #FFFFFF;
+}
+
+.binding {
+    position: absolute;
+    width: 258px;
+    height: 25px;
+    left: 766px;
+    top: 600px;
+    font-family: Open Sansб sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.binding-fab {
+    position: absolute;
+    justify-content: space-between;
+    width: 210px;
+    height: 74px;
+    font-size: 38px;
+    line-height: 55px;
+    top: 650px;
+    left: 766px;
+    color: white;
+}
+
+.gps-h {
+    position: absolute;
+    width: 54px;
+    height: 25px;
+    font-size: 18px;
+    line-height: 25px;
+    top: 600px;
+    left: 1084px;
+
+    color: #FFFFFF;
+
+}
+
+.gps {
+    position: absolute;
+    width: 255px;
+    height: 38px;
+    left: 1111px;
+    top: 642px;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.line-end {
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: 0px;
+    top: 841px;
+
+    border: 0.5px solid #FFFFFF;
+}
+
